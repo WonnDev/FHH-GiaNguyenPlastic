@@ -1,0 +1,247 @@
+.drw-show {
+    background: #fff;
+    border-radius: none;
+    width: 100%;
+    text-align: center;
+}
+
+.drw-menu {
+    width: 33%;
+    opacity: 0.8;
+}
+
+.drw-menu li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-style: 18px;
+}
+
+.dropdown-menu li a:hover {
+    background: rgb(99, 207, 240);
+    transition: 0.5s ease;
+}
+
+.drw-menu li a {
+    font-size: 16px;
+    background: #fff;
+}
+
+.drw-menu li:last-child {
+    border-bottom: none;
+}
+
+.shop-card-title .menu-left {
+    padding-right: 0;
+}
+
+.category {
+    padding: 5px 10px;
+}
+
+.category-list {
+    margin-top: 15%;
+}
+
+.text-title {
+    color: black;
+    font-size: 23px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: 10px;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.search img {
+    margin-right: 10px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.col-all-title {
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex !important;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 32.55%;
+    }
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-data .menu-card-content {
+    margin: 0;
+    padding: 0;
+}
+
+.card-data.menu-card-content::before {
+    content: "";
+    display: table;
+}
+
+.card-data.menu-card-content::after {
+    content: "";
+    display: table;
+}
+
+.card-data .menu-card-content span {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    font-size: 10px;
+    font-weight: 500;
+    transform: translate(-50%, 0);
+}
+
+.card-data .card {
+    background-color: #fff;
+    /* min-height: 340px; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-data .card:hover .card_content {
+    transform: translateY(0);
+}
+
+.card-data .card_content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(calc(70px + 1em));
+    transition: transform 0.3s;
+}
+
+.card-data .card_content .card_content_inf {
+    padding: 1em;
+    position: relative;
+    z-index: 1;
+}
+
+.card-data .author {
+    font-size: 12px;
+}
+
+.card-data .card_title {
+    margin-top: 10px;
+}
+
+.card-data .card_text {
+    height: 70px;
+    margin: 0;
+}
+
+.card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #c1ecf3 30%, #e6ddd8 45%, #5de0f5 25%);
+}
+
+.card_btn {
+    font-weight: 600 !important;
+}
+
+.card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* background: transparent; */
+    background: #5de0f5;
+}
+
+.btn:hover {
+    background-color: rgba(228, 82, 82, 0.12);
+}
+
+.menu-list ul {
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list ul li {
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+.menu-list ul li a {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.price {
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-title div a {
+    font-size: 23px;
+    font-weight: 700;
+}

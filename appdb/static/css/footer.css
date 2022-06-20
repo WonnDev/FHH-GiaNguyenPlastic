@@ -1,0 +1,35 @@
+
+.footer {
+	background-color:#4f7389;
+	padding: 50px 0;
+}
+.inf-company p {
+	margin-bottom: 0.4rem !important;
+	color: #fff;
+	font-weight: 400;
+
+}
+.inf-company p a {
+	color: #92b7dd;
+}
+.inf-support p {
+	margin-bottom: 0.5rem !important;
+	color: #fff;
+	font-weight: 400;
+}
+.inf-support p a{
+	color: #92b7dd;
+
+}
+
+.contact-method a {
+	font-size: 18px;
+
+}
+
+.contact-method img {
+	width: 30px;
+	padding-top: 30px;
+	margin: 5px;
+
+}
