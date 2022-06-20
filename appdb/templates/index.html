@@ -1,18 +1,13 @@
-{% extends 'home/layout/layout.html' %} 
-{% block title%} Home {% endblock %} 
-{% block body_class %}home{% endblock %} 
-{% import "macros/input_macro.html" as in %} 
-{% block content %} 
+{% extends 'home/layout/layout.html' %} {% block title%} Home {% endblock %} {% block body_class %}home{% endblock %} {% import "macros/input_macro.html" as in %} {% block content %}
 <section>
-  <div class="products">
-    <div class="container">
-      <div class="row">
-        <div class="product-info col-3">
-          <div class="product-genne">
-            <div class="product-company">
-              <h1>CÔNG TY TNHH</h1>
-              <b
-                >NHỰA <br />
+    <div class="products">
+        <div class="container">
+            <div class="row">
+                <div class="product-info col-3">
+                    <div class="product-genne">
+                        <div class="product-company">
+                            <h1>CÔNG TY TNHH</h1>
+                            <b>NHỰA <br />
                 GIA NGUYỄN</b
               >
               <div class="btm mt-2"></div>
@@ -187,22 +182,22 @@
         <div class="symbol-customer">
           <a href="#"
             ><img
-              src="https://hnk.muatheme.com/wp-content/uploads/2019/04/partner-1.jpg"
+              src="{{url_for('static',filename='images/partner-1.jpg')}}"
               alt=""
           /></a>
           <a href="#"
             ><img
-              src="https://hnk.muatheme.com/wp-content/uploads/2019/04/partner-2.jpg"
+            src="{{url_for('static',filename='images/partner-2.jpg')}}"
               alt=""
           /></a>
           <a href="#"
             ><img
-              src="https://hnk.muatheme.com/wp-content/uploads/2019/04/partner-3.jpg"
+            src="{{url_for('static',filename='images/partner-3.jpg')}}"
               alt=""
           /></a>
           <a href="#"
             ><img
-              src="https://hnk.muatheme.com/wp-content/uploads/2019/04/partner-4.jpg"
+            src="{{url_for('static',filename='images/partner-4.jpg')}}"
               alt=""
           /></a>
         </div>

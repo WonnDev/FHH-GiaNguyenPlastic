@@ -24,3 +24,7 @@ def contact():
 @app.route('/introduce')
 def introduce():
     return render_template('home/news/introduce.html')
+
+@app.route('/new')
+def new():
+    return render_template('home/news/news.html')
