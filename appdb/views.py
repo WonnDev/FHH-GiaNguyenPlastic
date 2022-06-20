@@ -19,8 +19,8 @@ def product():
 
 @app.route('/contact')
 def contact():
-    return render_template('home/layout/contact.html')
+    return render_template('home/news/contact.html')
 
 @app.route('/introduce')
 def introduce():
-    return render_template('home/layout/introduce.html')
+    return render_template('home/news/introduce.html')
