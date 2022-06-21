@@ -16,15 +16,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.mg-auto{
-	margin: auto 0;
-	width:  66%;
-	font-size: 20px;
-}
-.text-r{
-	text-align: right;
-}
-.mgb{
+.margin-bot{
 	margin-bottom: 10px;
 }
 .line-bottom{
@@ -37,10 +29,9 @@
 	width: 200px;
 	height: 250px;
 }
-.mg-s{
+.margin-size{
 	margin: 10px;
 }
-
 .ul-info{
 	list-style: none;
 	text-decoration: none;
@@ -96,34 +87,47 @@
 }
 /* Destop */
 @media only screen and (max-width: 1990px){
+	.product-list{
+		flex-direction: column;
+	}
 	.card-product{
-		width: 100%;
+		width: 24rem;
+		height: 333px;
 	}
 	.card-items{
-		width: 13rem;
+		width: 15rem;
 	}
 	.address-form{
 		font-size: 24px;
 	}
 @media only screen and (max-width: 1366px){
+	.product-list{
+		flex-direction: column;
+	}
 	.card-product{
-		width: 100%;
+		width: 24rem;
+		height: 333px;
 	}
 	.card-items{
 		width: 13rem;
+		font-size: 24px;
 	}
 	.address-form{
 		font-size: 23px;
 	}
 }
 @media only screen and (max-width: 1170px){	
+	.product-list{
+		flex-direction: column;
+	}
 	.card-product{
-		flex-direction: column ;
-		width: 100%;
+		width: 21rem;
+		font-size: 22px;
+		height: 333px;
 	}
 	.card-items{
 		width: 11rem;
-		font-size: 14px;
+		font-size: 17px;
 	}
 	.ul-info{
 		flex-direction: row;
