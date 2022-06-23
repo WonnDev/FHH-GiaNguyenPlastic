@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Header </title>
+	<link rel="stylesheet" href="{{url_for('static', filename='bootstrap/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+	<section class="top">
+		<div class="container">
+			<div class="row">
+				<div class=" col-12 col-sm-6 col-md-8">
+					<i class="fa-solid fa-location-dot color-font"></i>
+					<a class="color-font" href="#">25 Đường số 13 Khu dân cư ấp 5 Phong Phú, Huyện Bình Chánh, Thành phố Hồ Chí Minh <a/>
+					<a class="login-button" href=""></a>
+				</div>
+				<div class="col-6 col-md-4">
+					<a class="color-font" class="login-button" href="">Đăng Nhập / Login</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="header">
+		<div class="container">
+			<div class="row" style="align-items: center">
+				<div class="col img-logo">
+					<img class="card-img-top" src="{{url_for('static', filename='images/logo.png')}}" alt="">
+				</div>
+				<div class="col">
+					<p><b>Giờ làm việc</b><br>Mon - Sat: 8a.m - 17p.m </p>
+				</div>
+				<div class="col btn-bonus">
+						<a href="">Liên hệ ngay</a>
+                </div>
+			</div>
+		</div>
+	</section>
+	<section class="banner">
+		<img class="card-img-top" src="{{url_for('static', filename='images/original.jpeg')}}" alt="">
+		<div class="banner-menu-background">
+	        <div class="container">
+	            <div class="row">
+	                <ul class="col menu-banner">
+                        <li><a class="items-menu-banner" href="/introduce">Giới thiệu</a></li>
+                        <li><a class="items-menu-banner" href="/product">Cửa hàng</a></li>
+                        <li><a class="items-menu-banner" href="/new">Tin tức</a></li>
+                        <li><a class="items-menu-banner" href="/contact">Liên hệ</a></li>
+                    </ul>
+	                <div class="col">
+	                	<div class="banner-icon">
+	                    	<i class="fa-brands fa-facebook-square p-2"></i>
+	                    	<i class="fa-brands fa-twitter-square p-2"></i>
+	                    	<i class="fa-brands fa-youtube-square p-2"></i>
+	                	</div>
+	                    <!-- <div class="d-flex">
+	                    	<div class="banner-house-icon">
+	                            <i class="fa-solid fa-house"></i></a>
+	                        </div>
+	                        <div class="banner-shop">
+	                            <i class="fa-solid fa-cart-shopping"></i>
+	                        </div>
+	                        <div class="banner-search">
+	                            <i class="fas fa-magnifying-glass"></i>
+	                        </div>
+	                    </div> -->
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+</body>
+</html>

@@ -28,3 +28,7 @@ def introduce():
 @app.route('/new')
 def new():
     return render_template('home/news/news.html')
+
+@app.route('/header')
+def header():
+    return render_template('home/news/header-t.html')
